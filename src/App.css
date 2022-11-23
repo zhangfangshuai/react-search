@@ -1,0 +1,12 @@
+.app {
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+}
+
+@media screen and (min-width: 1000px) {
+    .app {
+        width: 980px;
+        margin-left: calc(50% - 490px);
+    }
+}
